@@ -1,3 +1,4 @@
+console.log("This is testing");
 document.addEventListener("DOMContentLoaded", function() {
     function getResult() {
         // Get all rows in the results table
