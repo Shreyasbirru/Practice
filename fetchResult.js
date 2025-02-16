@@ -1,5 +1,5 @@
 console.log("This is testing");
-document.addEventListener("DOMContentLoaded", function() {
+// document.addEventListener("DOMContentLoaded", function() {
     function getResult() {
         // Get all rows in the results table
         let rows = document.querySelectorAll("table tbody tr");
@@ -21,4 +21,4 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Wait for the page to fully load before executing
     setTimeout(getResult, 3000); // Delay to ensure the table loads properly
-});
+// });
